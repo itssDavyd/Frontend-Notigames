@@ -1,0 +1,101 @@
+@import "../scss/variables.scss";
+
+.contenido {
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+    margin-left:2.2rem ;
+    margin-right: 2.2rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    &.show {
+        max-height: none;
+    }
+    &.hidden {
+        max-height: 6rem;
+    }
+}
+
+.arrow {
+    &.show {
+        display: block;
+    }
+    &.hidden {
+        display: none;
+    }
+}
+
+.butFilter{
+    background-color: $color_background_principal;
+    color: white;
+    border-color:black;
+    &:hover{
+    background-color: black;
+    border-color:black;
+    }
+
+}
+
+.mensajeForo{
+    //border: solid 1px $color_principal;
+    border-radius: 1rem;
+    width: 60rem;
+    gap: 5px;
+    padding: 1rem;
+    margin: 10px;
+    // box-shadow: 8px 8px 13px -7px $color_principal;
+    background: $color_background_secundario;
+}
+
+.containerNoticia{
+    margin-bottom: 3rem;
+}
+
+.vermas {
+    background: rgb(81,94,124);
+    background: linear-gradient(0deg, rgba(81,94,124,1) 0%, rgba(253,187,45,0) 100%);
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    margin-left: auto;
+}
+
+#mas:link #mas:visited #mas:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#menos:link #menos:visited #menos:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.mensajeForo:hover {
+    transition: 0.75s;
+    transform: scale(1.05);
+}
+
+.nav-link{
+    color: #a02222;
+    &:hover{
+        color: #ff0000;
+    }
+}
+
+// .btn-outline-primary{
+//     color: black;
+//     border-color:black;
+//     &:hover{
+//     background-color: black;
+//     border-color:black;
+//     }
+// }
+
+div#div_file{
+    background-color: #721414 !important;
+    box-shadow: 0px 3px 0px #290404 !important;
+    &:hover{
+        background-color: #a02222 !important;
+        transition: 0.55s;
+        transform: scale(1.05);
+    }
+}

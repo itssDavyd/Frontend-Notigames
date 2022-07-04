@@ -1,0 +1,38 @@
+@import './variables.scss';
+
+.preloader {
+    width: 400px;
+    height: 400px;
+    border: 10px solid #eee;
+    border-top: 10px solid rgb(128, 0, 0);
+    border-radius: 50%;
+    animation-name: girar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+  }
+
+.contPreload{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 100vh;
+  background-color: rgb(226, 226, 226);
+}
+
+.textCargando{
+  position: absolute;
+  font-family: tituloNoti;
+  font-size: 50px;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+

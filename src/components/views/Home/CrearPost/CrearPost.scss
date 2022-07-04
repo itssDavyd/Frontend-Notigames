@@ -1,0 +1,34 @@
+@import "../../scss/variables.scss";
+
+.CajonFormCrear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.publicarPostCreado{
+    background-color: white;
+    color: rgb(128, 0, 0);
+    border-color: rgb(128, 0, 0);
+    &:hover{
+        background-color: rgb(128, 0, 0);
+        color: white;
+    }
+}
+
+.cajonBtnPublicar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.foroCrear{
+    font-family: letraRandom;
+    font-size: 18px;
+
+    &:hover {
+        transform: none !important;
+        transition: none !important;
+    }
+}

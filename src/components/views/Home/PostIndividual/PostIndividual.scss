@@ -1,0 +1,131 @@
+.contenido {
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+    margin-left: 2.2rem;
+    margin-right: 2.2rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+  
+  .contenido.show {
+    max-height: none;
+  }
+  
+  .contenido.hidden {
+    max-height: 6rem;
+  }
+  
+  .arrow.show {
+    display: block;
+  }
+  
+  .arrow.hidden {
+    display: none;
+  }
+  
+  .butFilter {
+    background-color: #4d0b0b;
+    color: white;
+    border-color: black;
+  }
+  
+  .butFilter:hover {
+    background-color: black;
+    border-color: black;
+  }
+  
+  .mensajeForo {
+    border-radius: 1rem;
+    width: 60rem;
+    gap: 5px;
+    padding: 1rem;
+    margin: 10px;
+    background: #eff0f5;
+  }
+  
+  .containerNoticia {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .vermas {
+    background: rgb(81, 94, 124);
+    background: linear-gradient(0deg,
+        rgba(81, 94, 124, 1) 0%,
+        rgba(253, 187, 45, 0) 100%);
+    display: flex;
+    justify-content: flex-end;
+    height: 15px;
+    margin-left: auto;
+  }
+  
+  #mas:link #mas:visited #mas:hover {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #menos:link #menos:visited #menos:hover {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .mensajeForo:hover {
+    transition: 0.75s;
+    transform: scale(1.03);
+  }
+  
+  .nav-link {
+    color: #a02222;
+  }
+  
+  .nav-link:hover {
+    color: #ff0000;
+  }
+  
+  /* .btn-outline-primary {
+    color: black;
+    border-color: black;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: black;
+    border-color: black;
+  } */
+  
+  /* div#div_file {
+    background-color: #721414 !important;
+    box-shadow: 0px 3px 0px #290404 !important;
+  }
+  
+  div#div_file:hover {
+    background-color: #a02222 !important;
+    transition: 0.55s;
+    transform: scale(1.05);
+  } */
+  
+  .titulo {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 2px solid #300d0d;
+    margin-bottom: 1rem;
+  }
+  
+  .titulo a {
+    text-decoration: none !important;
+    color: #300d0d;
+  }
+  
+  .container-footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 0.05rem rgba(0, 0, 0, 0.3);
+    padding-top: 0.65rem;
+  }
+  
+  .container-footer div {
+    box-shadow: inset -2px -2px 10px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+  }

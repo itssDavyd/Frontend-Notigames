@@ -1,0 +1,23 @@
+$tamanio_muy_grande: 1.2rem;
+$tamanio_grande: 1rem;
+$tamanio_mediano: 0.8rem;
+$tamanio_pequenio: 0.6rem;
+$taminio_muy_pequenio: 0.4rem;
+$color_principal: #636363;
+$color_secundario: #28a3b5;
+$color_background_principal: #4d0b0b;
+//$color_background_principal: #ddfafe8f;
+$color_background_secundario: rgb(239, 240, 245);
+$color_exito: green;
+$color_error: red;
+$color_warnning: yellow;
+
+@font-face {
+    font-family: tituloNoti;
+    src: url("../../../font/HANDMADE_ANIMATION.otf");
+}
+
+@font-face {
+    font-family: letraRandom;
+    src: url("../../../font/IriskaFreeFont.otf");
+}

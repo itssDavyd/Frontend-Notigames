@@ -1,0 +1,50 @@
+@import "../scss/variables.scss";
+
+.navbar{
+  position: sticky;
+  top: 0;
+  height: auto;
+  z-index: 100;
+  background: rgb(0,0,0) !important;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(128,0,0,1) 50%, rgba(224,0,0,1) 100%) !important;
+}
+
+
+// .btn-outline-success {
+//   color: black;
+//   border-color: black;
+//   &:hover{
+//       background-color: black;
+//       border: black;
+//   }
+// }
+
+.filterIdClass{
+  & ul{
+      list-style:none;
+      margin: 0px;
+      padding-left: 20px;
+      & li {
+          position: relative;
+          display: inline-block;
+      }
+  };
+
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+  &:hover{
+      color: white;
+      font-weight: bold;
+  }
+
+  &.active{
+      color: white;
+      &:hover{
+          color: white;
+          font-weight: bold;
+      }
+  }
+}
